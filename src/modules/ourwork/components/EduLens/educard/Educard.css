@@ -1,0 +1,23 @@
+.educards {
+    padding-bottom: var(--main-padding);
+    padding-top: var(--main-padding);
+    position: relative;
+}
+
+.educards .container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+    gap: 10px;
+    position: relative;
+}
+
+.lenscard {
+    box-shadow: 0px 6px 16px 0px #00000040;
+    height: 333px;
+    margin-top: 80px;
+    text-align: center;
+}
+.lensname{
+    font-size: 22px;
+    padding: 20px;
+}

@@ -1,0 +1,16 @@
+.cohort{
+    padding-top: var(--main-padding);
+    padding-bottom: var(--main-padding);
+    position: relative;
+}
+.cohort .container{
+    
+}
+
+.cohort .title{
+    
+}
+.cohort img{
+    width: 100%;
+}
+

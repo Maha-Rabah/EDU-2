@@ -1,0 +1,32 @@
+.contribution {
+    padding-top: var(--main-padding);
+    padding-bottom: var(--main-padding);
+    position: relative;
+    background-color: white;
+}
+
+.contribution .container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px,1fr));
+    gap: 20px;
+    position: relative;
+}
+
+.contribution .contricard {
+    margin-top: 40px;
+    padding: 40px;
+}
+.contribution .contricard img{
+    width: 100%;
+}
+.contribution .roze1{
+    position: absolute;
+    top: -180px;
+    right: -170px;
+
+}
+.contribution .yellow1{
+    position: absolute;
+    left: -210px;
+    bottom: 20px;
+} 
