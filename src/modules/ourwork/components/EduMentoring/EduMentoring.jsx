@@ -48,7 +48,7 @@ caption:'Bi-weekly mentoring sessions to secure scholarships with expert mentors
   return (
     <div >
       <Landing data={mendata}/>
-      <Features featurecard={featuredata}/>
+      <Features featurecard={featuredata} featuretit={true}/>
       <img src={yellow} alt="" className='proyellow' />
       <Numbers  title={mentonumtitle} numoptions={mentoption}/>
       <Cohort/>

@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import Vision from '../components/Vision/vision'
 import Team from '../components/Team/Team'
 import Values from '../components/Values/Values'
@@ -42,6 +42,8 @@ const valuedata=[{
 
 
 const About = () => {
+  useEffect(() => { window.scrollTo(0, 0) }, [])
+
   return (
     <div>
       <Vision/>

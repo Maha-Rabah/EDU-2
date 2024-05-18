@@ -1,7 +1,7 @@
 import React from 'react'
 import Contribution from '../components/contribution/contribution'
 import Landing from '../components/landing/Landing'
-import { useState } from 'react';
+import { useState ,useEffect } from 'react';
 import ProgramCards from '../components/ProgramCards/ProgramCards';
 import { BiColor } from 'react-icons/bi';
 import Numbers from '../components/Numbers/Numbers';

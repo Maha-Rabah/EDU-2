@@ -20,6 +20,7 @@
     box-shadow: 0 2px 15px rgb(0 0 0 / 10%);
     width: 325px !important;
     margin: auto;
+    min-height: 500px;
     border-radius: 5px;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
@@ -62,11 +63,20 @@
 }
 .team-content .slick-arrow.slick-next{
     background-color: var(--main-color) !important;
-    padding:20px 32px 35px 20px!important;
+    color: white;
+    font-weight: bold;
+    padding:5px 40px 40px 15px !important;
     margin-right:-30px !important;
     border-radius: 50% !important;
     -webkit-border-radius: 50% !important;
     -moz-border-radius: 50% !important;
     -ms-border-radius: 50% !important;
     -o-border-radius: 50% !important;
+}
+
+
+.slick-next::before{
+    font-family: "Font Awesome 5 Free" !important;
+    opacity: 1000 !important;
+    font-size: 33px !important;
 }

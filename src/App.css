@@ -14,9 +14,7 @@
     margin: 0;
     padding: 0;
 }
-body {
-    font-family: "gotham";
-}
+
 
 html {
     scroll-behavior: smooth;
@@ -39,7 +37,6 @@ ul {
 }
 
 .title {
-    font-family: "Gothic A1";
     font-size: 44px;
     color: #000000;
     text-align: center;
@@ -51,7 +48,6 @@ ul {
     color:white;
     width: fit-content;
     font-size: 22px;
-    font-weight: bold;
     padding: 15px 30px;
     border: none;
     cursor: pointer;

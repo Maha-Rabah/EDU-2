@@ -10,7 +10,7 @@ const EduLens = () => {
   const lensdata={
     homepic:lenspic,
     title:'EduLens Program',
-    desc:'A mentoring program to support Syrian students in their pursuit of higher education abroad through ourwork and financial support.',
+    desc:'A series of podcast episodes featuring the Syrian experience in scholarships abroad and documenting their international education journey.',
     true:false
   }
 ///////////////////////////////////////////////////////////

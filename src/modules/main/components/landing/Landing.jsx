@@ -1,8 +1,9 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import './LandingStyle.css'
 import { Link } from 'react-router-dom'
 
 const Landing = ({data}) => {
+  useEffect(() => { window.scrollTo(0, 0) }, [])
   return (
     <div className='landing'>
       <img src={data.homepic} alt="" />

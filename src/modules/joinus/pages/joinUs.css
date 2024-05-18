@@ -7,7 +7,11 @@
     justify-content:center;
     font-family:'arial';
 }
-.jointitle{
+.jointitle h1{
+    font-size: 44px;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 40px;
     max-width: 600px;
 
 }
@@ -22,6 +26,10 @@
     box-shadow:1px 1px 5px gray;
     border-radius:10px;
     margin:0 3em;
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    -ms-border-radius:10px;
+    -o-border-radius:10px;
 }
 
 .joinUs-op-container img{
@@ -42,9 +50,10 @@
 }
 
 .joinUs-op-content p {
-    font-size:19px;
-    max-width: 580px;
+    font-size:22px;
+    max-width: 720px;
     margin-bottom: 50px;
+    font-weight: bold;
 
 }
 
@@ -75,9 +84,17 @@
 .cta-linkedin {
     background-color:#7659FF;
     border-radius:12px;
-    margin:0.3em 0
+    margin:0.3em 0;
+    -webkit-border-radius:12px;
+    -moz-border-radius:12px;
+    -ms-border-radius:12px;
+    -o-border-radius:12px;
+}
+.cta-linkedin span{
+    border-bottom: 1px solid #ffffff;   
 
 }
+
 
 .cta-linkedin a {
     padding:0.7em 1.5em;
@@ -89,8 +106,8 @@
 }
 
 .cta-linkedin a img {
-    width:25px;
-    margin-top: 12px;
+    width:20px;
+    margin-top: 20px;
 }
 
 .cta-linkedin:hover {
@@ -101,8 +118,8 @@
     display:flex;
     justify-content:center;
     width:80%; 
-    margin-top:4em;
-    margin-bottom: 100px;
+    margin-top:50px;
+    margin-bottom: 50px;
 }
 
 .people-container img {
@@ -142,3 +159,5 @@
     align-items:center;
     margin:0 2em;
 }
+
+

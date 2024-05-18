@@ -121,6 +121,7 @@
     background-color: #7659FF;
     color:white;
     margin-bottom: 10px;
+    cursor: pointer;
 }
 
 @media screen and (max-width: 950px) {

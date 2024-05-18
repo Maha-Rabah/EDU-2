@@ -32,6 +32,7 @@ padding-right: 10px;
 .footer .container .column{
     display: flex;
     color: #FFFFFF;
+    font-weight: bold;
 }
 
 .footer .column li a{

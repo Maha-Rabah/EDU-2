@@ -1,5 +1,4 @@
 .values {
-    padding-top: var(--main-padding);
     padding-bottom: var(--main-padding);
     position: relative;
 }
@@ -26,10 +25,10 @@
     right: 50px;
     bottom: 40px;
     transform: rotate(-10deg);
-    -webkit-transform:;
-    -moz-transform:;
-    -ms-transform:;
-    -o-transform:;
+    -webkit-transform: rotate(-10deg);
+    -moz-transform: rotate(-10deg);
+    -ms-transform: rotate(-10deg);
+    -o-transform: rotate(-10deg);
 }
 
 .valuecard {

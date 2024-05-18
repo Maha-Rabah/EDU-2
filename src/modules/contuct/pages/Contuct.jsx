@@ -1,6 +1,6 @@
 import './contuct.css'
 import worldmap from '../assets/worldmapfinal.png'
-import { useState } from 'react'
+import { useState,useEffect } from 'react'
 import line from '../assets/lines.svg'
 import sy from '../assets/syria.svg'
 import yellow from '../../../assets/yellow.svg'
@@ -8,13 +8,20 @@ import roze from '../../../assets/roze.svg'
 import dot from '../assets/dot.svg'
 
 const Contuct= () => {
+  useEffect(() => { window.scrollTo(0, 0) }, [])
 
   const[firstName,setFirstName]=useState('')
   const[lastName,setLastName]=useState('')
   const[email,setEmail]=useState('')
   const[message,setMessage]=useState('')
+  const[success,setSuccess]=useState('')
 
-
+  function messagesent(){
+    setSuccess(()=>{
+      return alert("Your Message Sent Successfully, Thank you!")
+      
+    })
+  }
 
 const handleFormSubmit = (e) =>{
     e.preventDefault();
@@ -49,10 +56,6 @@ const handleFormSubmit = (e) =>{
             <img className='dot4' src={dot} alt="" />
             <img className='dot5' src={dot} alt="" />
             <img className='dot6' src={dot} alt="" />
-
-
-
-
         </div>
         <form method="post" action="#" className='form-container' onSubmit={handleFormSubmit}>
             <input type="text"   name="text"   value={firstName} onChange={(e)=>
@@ -69,7 +72,8 @@ const handleFormSubmit = (e) =>{
             <textarea type='text'   name="text"   value={message} onChange={(e)=>
             setMessage(e.target.value)} placeholder='Message (required)' required />
 
-            <input type="submit" name="submit" id="" value="Send" className='button'/>
+            <input type="submit" name="submit" id="" value="Send"
+             onClick={()=>messagesent()}/>
         </form>
     <img src={roze} alt="" className='rozecon'/>
       

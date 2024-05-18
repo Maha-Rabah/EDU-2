@@ -12,7 +12,7 @@
 .programcards .container h3{
     padding: 40px 40px 0;
     font-size: 22px;
-    font-family: "gotham-bold";
+    font-weight: bold;
 }
 
 .programcards .container p{
@@ -22,34 +22,29 @@
     font-weight: bold;
 
 }
-
 .programcards .container .learnmore{
-    padding: 30px;
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    margin-right: 20px;
-    font-family: "gotham-bold";
-
+    margin: 40px 85px;
 }
-.programcards .container .learnmore i{
-    position: absolute;
-    font-size: 28px;
-    margin-left: 5px;
-    color: black;
-    transform: translateY(-50%);
-    -webkit-transform: translateY(-50%);
-    -moz-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    -o-transform: translateY(-50%);
-
-}
-.programcards .container .learnmore span{
+.programcards .container .learnmore a{
+    display: block;
     font-size: 18px;
     font-weight: bold;
     color: black;
     position: relative;
+
 }
+
+.programcards .container .learnmore i{
+    position: absolute;
+    font-size: 40px;
+    margin-left: 15px;
+    top: -10px;
+
+}
+
 
 .programcards .container .green h3{
     color: #79BFFB;;

@@ -6,7 +6,7 @@ import dashed from '../../assets/Ellipse 55.png'
 import dashed2 from '../../assets/Ellipse 56.png'
 
 const title=['Our Vision and Mission'];
-const descvision= ['We envision a generation of Syrian youth empowered to overcome challenges and become key contributors in shaping a brighter future for Syria and the world. We facilitate access to international educationfor Syrian youth by harnessing the support of the Syrian diaspora'];
+const descvision= ['We envision a generation of Syrian youth empowered to overcome challenges and become key contributors in shaping a brighter future for Syria and the world. We facilitate access to international educationfor Syrian youth by harnessing the support of the Syrian diaspora.'];
 
 const Vision = () => {
   return (

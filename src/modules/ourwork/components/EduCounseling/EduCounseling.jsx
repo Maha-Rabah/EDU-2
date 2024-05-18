@@ -53,9 +53,10 @@ const EduCounseling = () => {
         
   ]
   return (
+  
     <>
         <Landing data={coundata}/>
-         <Features featurecard={featuredata}/>
+         <Features featurecard={featuredata} featuretit={false}/>
          <img src={yellow} alt="" className='proyellow' />
         <Numbers  title={contitle} numoptions={numoption}/>
     </>

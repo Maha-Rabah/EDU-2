@@ -21,7 +21,7 @@ const Navbar = () => {
             <ul className='dropdown'>
               <li><NavLink to="edumentoring">EduMentoring Program</NavLink></li>
               <li><NavLink to="edulens">EduLens Program</NavLink></li>
-              <li><NavLink to="educounseling">EduCounseling program</NavLink></li>
+              <li><NavLink to="educounseling">EduCounseling Program</NavLink></li>
             </ul>
           </li>
           <li><NavLink to="joinus">Join Us</NavLink></li>

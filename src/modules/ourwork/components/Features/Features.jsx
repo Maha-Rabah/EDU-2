@@ -2,10 +2,10 @@ import React from 'react'
 import './Features.css'
 import { Link } from 'react-router-dom'
 
-const Features = ({featurecard}) => {
+const Features = ({featurecard,featuretit}) => {
     return (
       <div className='features'>
-          <h2 className='title'>Features</h2>
+          <h2 className={(featuretit)?'feattitle featblue':'feattitle featyellow'}>Features</h2>
           <div className="container">
           {featurecard.map(function (item) {
                   return (

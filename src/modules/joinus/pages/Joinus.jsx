@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import './joinUs.css'
 import notebook from '../assets/notebook.svg'
 import linkedin from '../assets/linkedin.svg'
@@ -26,10 +26,12 @@ const valuedata=[{
 ////////////////////////////////////////////////
 
 const JoinUs = () => {
+  useEffect(() => { window.scrollTo(0, 0) }, [])
+
   return (
     <div className='joinUs-container container'>
         <div className="jointitle">
-            <h1 className='title'>Join us in shaping a brighter future for Syria</h1>
+            <h1>Join us in shaping a brighter future for Syria</h1>
         </div>
         <div className="joinUs-op-container">
             

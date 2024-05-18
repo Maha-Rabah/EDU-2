@@ -26,7 +26,6 @@
 }
 
 .Numbers .container .info .num{
-    font-family: "gotham-bold";
     font-size: 30px;
     font-weight: bold;
     color: var(--main-color);
