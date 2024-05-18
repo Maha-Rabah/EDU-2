@@ -8,10 +8,14 @@ import Features from '../Features/Features.jsx'
 import feat1 from '../../assets/feature1.svg'
 import feat2 from '../../assets/feature2.svg'
 import feat3 from '../../assets/feature3.svg'
+import mentpic from '../../assets/mentopic.png'
+import yellow from '../../../../assets/yellow.svg'
+
 
 const EduMentoring = () => {
   
   const mendata={
+    homepic:mentpic,
     title:'EduMentoring program',
     desc:'A mentoring program to support Syrian students in their pursuit of higher education abroad through mentoring and financial support.'
   }
@@ -45,6 +49,7 @@ caption:'Bi-weekly mentoring sessions to secure scholarships with expert mentors
     <div >
       <Landing data={mendata}/>
       <Features featurecard={featuredata}/>
+      <img src={yellow} alt="" className='proyellow' />
       <Numbers  title={mentonumtitle} numoptions={mentoption}/>
       <Cohort/>
 

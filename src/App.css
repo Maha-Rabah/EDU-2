@@ -39,10 +39,10 @@ ul {
 }
 
 .title {
-    font-size: 48px;
+    font-family: "Gothic A1";
+    font-size: 44px;
     color: #000000;
     text-align: center;
-    font-weight: 700;
     margin-bottom: 40px;
 }
 
@@ -50,9 +50,11 @@ ul {
     background-color:var(--main-color);
     color:white;
     width: fit-content;
-    font-size: 24px;
+    font-size: 22px;
+    font-weight: bold;
     padding: 15px 30px;
     border: none;
+    cursor: pointer;
     border-radius: 12px;
     -webkit-border-radius: 12px;
     -moz-border-radius: 12px;

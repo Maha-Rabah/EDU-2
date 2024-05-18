@@ -1,5 +1,6 @@
 import React from 'react'
 import './Features.css'
+import { Link } from 'react-router-dom'
 
 const Features = ({featurecard}) => {
     return (
@@ -9,7 +10,7 @@ const Features = ({featurecard}) => {
           {featurecard.map(function (item) {
                   return (
                     <>
-                        <div className={(item.pink)?"featurecard pink":"featurecard"}>
+                        <Link to={item.counlink} className={(item.pink)?"featurecard pink":"featurecard"}>
                         <div className='icon'>
                           <img src={item.icon} alt="" />
                         </div>
@@ -17,7 +18,7 @@ const Features = ({featurecard}) => {
                         <div className='caption'>
                           <p>{item.caption}</p>
                         </div>
-                    </div>
+                    </Link>
                     </>
                   );
               })}

@@ -12,6 +12,7 @@
 
 .vision .container .info{
     flex: 1;
+    width: 50%;
 }
 .vision .container .info h2{
     text-align: left;
@@ -19,26 +20,37 @@
 }
 .vision .container .info .desc{
     max-width: 700px;
-    font-size: 32px;
-    font-weight: 400;
+    font-size: 22px;
+    font-weight: bold;
     line-height: 1.4;
-    word-spacing: 7px;
+    word-spacing: 10px;
     text-align: left;
     color: black;
     margin-bottom: 60px;
 }
 .vision .container .image{
-    position: relative;
+    width: 50%;
     z-index: 1;
+    position: relative;
+
+}
+.vision .container .image .visimg{
+    width:500px;
+    margin-left: 150px;
+    position: absolute;
+
 }
 .vision .container .image .dashed{
     position: absolute;
-    top: 0;
-    right: 90px;
+    top: -10px;
+    right: 0px;
     z-index: -1;
 }
-.vision .container .image img{
-    max-width: 100%;
+.vision .container .image .dashed2{
+    position: absolute;
+    z-index: -1;
+    left: 240px;
+    top: 270px;
 }
 
 @media (max-width:992px) {

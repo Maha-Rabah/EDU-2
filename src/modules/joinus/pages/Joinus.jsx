@@ -8,7 +8,8 @@ import icon1 from '../assets/jicon1.svg'
 import icon2 from '../assets/jicon2.svg'
 import icon3 from '../assets/jicon3.svg'
 import people from '../assets/vol.png'
-
+import blue from '../../../assets/Blue.svg'
+import yellow from '../../../assets/yellow.svg'
 /////////////////////////////////////////////////////////
 const valuedata=[{
     icon:icon1,
@@ -28,7 +29,7 @@ const JoinUs = () => {
   return (
     <div className='joinUs-container container'>
         <div className="jointitle">
-            <h1>Join us in shaping a brighter future for Syria</h1>
+            <h1 className='title'>Join us in shaping a brighter future for Syria</h1>
         </div>
         <div className="joinUs-op-container">
             
@@ -51,17 +52,20 @@ const JoinUs = () => {
                 </a>
             </div>
         </div>
+        <img src={yellow} alt="" className='yellowjoin'/>
 
     <div className="people-container">
         <img src={people} alt="" />
     </div>
 
-    <a href="" className='button'>Volunteer with EduBridge</a>
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSerYDDPbR6DF7I5HGfiK69lVjTubapm1P0giJTKp10jC3ndYQ/viewform" className='button'>Volunteer with EduBridge</a>
 
     <div className="volunteer-container">
-        <h2>Why volunteer with us</h2>
+        <h2 className='title'>Why volunteer with us</h2>
         <Values valuecard={valuedata}/>
     </div>
+    <img src={blue} alt="" className='bluejoin'/>
+
 
     </div>
   )

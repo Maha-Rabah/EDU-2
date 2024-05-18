@@ -40,78 +40,13 @@ const valuedata=[{
   },
 ]
 
-// const teamdata=[{
-//   pic:pic1,
-//   teamname:"Mohamad Amino",
-//   caption:"A master's degree candidate at the University of Manchester, has been awarded a fully funded scholarship by the University to pursue his studies in international fashion marketing. The top student at the University of Aleppo as a business management student.",
-// },
-// {
-//   pic:pic1,
-//   teamname:"Mohamad Amino",
-//   caption:"A master's degree candidate at the University of Manchester, has been awarded a fully funded scholarship by the University to pursue his studies in international fashion marketing. The top student at the University of Aleppo as a business management student.",
-// },
-// {
-//   pic:pic1,
-//   teamname:"Mohamad Amino",
-//   caption:"A master's degree candidate at the University of Manchester, has been awarded a fully funded scholarship by the University to pursue his studies in international fashion marketing. The top student at the University of Aleppo as a business management student.",
-// },
-// {
-//   pic:pic1,
-//   teamname:"Mohamad Amino",
-//   caption:"A master's degree candidate at the University of Manchester, has been awarded a fully funded scholarship by the University to pursue his studies in international fashion marketing. The top student at the University of Aleppo as a business management student.",
-// },
-// {
-//   pic:pic1,
-//   teamname:"Mohamad Amino",
-//   caption:"A master's degree candidate at the University of Manchester, has been awarded a fully funded scholarship by the University to pursue his studies in international fashion marketing. The top student at the University of Aleppo as a business management student.",
-// },
-// {
-//   pic:pic1,
-//   teamname:"Mohamad Amino",
-//   caption:"A master's degree candidate at the University of Manchester, has been awarded a fully funded scholarship by the University to pursue his studies in international fashion marketing. The top student at the University of Aleppo as a business management student.",
-// },
-// {
-//   pic:pic1,
-//   teamname:"Mohamad Amino",
-//   caption:"A master's degree candidate at the University of Manchester, has been awarded a fully funded scholarship by the University to pursue his studies in international fashion marketing. The top student at the University of Aleppo as a business management student.",
-// },
-// {
-//   pic:pic1,
-//   teamname:"Mohamad Amino",
-//   caption:"A master's degree candidate at the University of Manchester, has been awarded a fully funded scholarship by the University to pursue his studies in international fashion marketing. The top student at the University of Aleppo as a business management student.",
-// },
-// {
-//   pic:pic1,
-//   teamname:"Mohamad Amino",
-//   caption:"A master's degree candidate at the University of Manchester, has been awarded a fully funded scholarship by the University to pursue his studies in international fashion marketing. The top student at the University of Aleppo as a business management student.",
-// },
-// {
-//   pic:pic1,
-//   teamname:"Mohamad Amino",
-//   caption:"A master's degree candidate at the University of Manchester, has been awarded a fully funded scholarship by the University to pursue his studies in international fashion marketing. The top student at the University of Aleppo as a business management student.",
-// },
-// {
-//   pic:pic1,
-//   teamname:"Mohamad Amino",
-//   caption:"A master's degree candidate at the University of Manchester, has been awarded a fully funded scholarship by the University to pursue his studies in international fashion marketing. The top student at the University of Aleppo as a business management student.",
-// },
-// {
-//   pic:pic1,
-//   teamname:"Mohamad Amino",
-//   caption:"A master's degree candidate at the University of Manchester, has been awarded a fully funded scholarship by the University to pursue his studies in international fashion marketing. The top student at the University of Aleppo as a business management student.",
-// },
-
-
-
-// ]
-
 
 const About = () => {
   return (
     <div>
       <Vision/>
       <Team/>
-      <Values valuecard={valuedata}/>
+      <Values valuecard={valuedata} title="Our Values"/>
     </div>
   )
 }

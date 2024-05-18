@@ -14,7 +14,8 @@ const ProgramCards = ({programcard}) => {
                         <h3 className='cardname'>{item.name}</h3>
                         <p className='aboutcard'>{item.about}</p>
                         <div className='learnmore'>
-                        <Link to={item.programname}>Learn more<i><IoArrowForwardCircleOutline /></i></Link>
+                        <span>Learn more</span>
+                        <Link to={item.programname}><i><IoArrowForwardCircleOutline /></i></Link>
                         </div>
                     </div>
                   </>

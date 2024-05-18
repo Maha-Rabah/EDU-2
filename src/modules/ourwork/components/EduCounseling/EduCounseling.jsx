@@ -7,11 +7,13 @@ import Features from '../Features/Features'
 import feat1 from '../../assets/yellfeat1.svg'
 import feat2 from '../../assets/yfeat2.svg'
 import feat3 from '../../assets/yfeat3.svg'
-
+import yellow from '../../../../assets/yellow.svg'
+import counpic from '../../assets/educounpic.png'
 const EduCounseling = () => {
 
 
   const coundata={
+    homepic:counpic,
     title:'EduCounseling program',
     desc:'A Counseling program for individuals currently applying for scholarships and seeking assistance in assessing their application files or preparing for scholarship interviews.',
     true:false,
@@ -26,6 +28,7 @@ const EduCounseling = () => {
   ////////////////////////////////////////////////////
   const featuredata=[
     {
+  counlink:'https://docs.google.com/forms/d/e/1FAIpQLSfrmMbfgZI29Qw8k_PHhXJQI0Zgrf4cLBn3CxWnjtWVa_S9yg/viewform',
   pink:true,
   icon:feat1,
   titlefeature:'Essay Review',
@@ -33,6 +36,7 @@ const EduCounseling = () => {
     },
 
     {
+  counlink:'https://docs.google.com/forms/d/e/1FAIpQLSfrmMbfgZI29Qw8k_PHhXJQI0Zgrf4cLBn3CxWnjtWVa_S9yg/viewform',
     pink:true,
     icon:feat2,
     titlefeature:'Interview Prep',
@@ -40,6 +44,7 @@ const EduCounseling = () => {
       },
 
       {
+        counlink:'https://docs.google.com/forms/d/e/1FAIpQLSfrmMbfgZI29Qw8k_PHhXJQI0Zgrf4cLBn3CxWnjtWVa_S9yg/viewform',
     pink:true,
     icon:feat3,
     titlefeature:'Counseling Session',
@@ -51,6 +56,7 @@ const EduCounseling = () => {
     <>
         <Landing data={coundata}/>
          <Features featurecard={featuredata}/>
+         <img src={yellow} alt="" className='proyellow' />
         <Numbers  title={contitle} numoptions={numoption}/>
     </>
   )

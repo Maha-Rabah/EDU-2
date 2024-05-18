@@ -2,7 +2,6 @@ import React from 'react'
 import './contributionStyle.css'
 import roze from '../../../../assets/roze.svg'
 import yellow from '../../../../assets/yellow.svg'
-
 const Contribution = ({conticard}) => {
   return (
     <div className='contribution'>

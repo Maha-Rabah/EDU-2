@@ -6,23 +6,13 @@
     color: var(--main-color);
 }
 
-.Team .container{
-
-}
-
-.Team .button{
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    -webkit-transform: translateX(-50%);
-    -moz-transform: translateX(-50%);
-    -ms-transform: translateX(-50%);
-    -o-transform: translateX(-50%);
+.Team .but{
     margin-top: 100px;
-}   
-
-
-
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+}
 .teamcard {
     text-align: center;
     padding: 30px 20px;
@@ -69,4 +59,14 @@
 
 .team-content ul.slick-dots {
     bottom: -40px;
+}
+.team-content .slick-arrow.slick-next{
+    background-color: var(--main-color) !important;
+    padding:20px 32px 35px 20px!important;
+    margin-right:-30px !important;
+    border-radius: 50% !important;
+    -webkit-border-radius: 50% !important;
+    -moz-border-radius: 50% !important;
+    -ms-border-radius: 50% !important;
+    -o-border-radius: 50% !important;
 }

@@ -6,11 +6,11 @@ import yellow2 from '../../../../assets/yellow.svg'
 // import blue2 from '../../../../assets/Blue.svg'
 
 
-const Values = ({valuecard}) => {
+const Values = ({valuecard, title}) => {
   return (
     <div className='values'>
-      <img src={yellow2} alt="" className='yellow2'/>
-        <h2 className='title'>Our Values</h2>
+      {/* <img src={yellow2} alt="" className='yellow2'/> */}
+        <h2 className='title'>{title}</h2>
         <div className="container">
         {valuecard.map(function (item) {
                 return (

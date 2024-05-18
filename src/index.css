@@ -1,11 +1,22 @@
 @font-face {
     font-family: "gotham";
-    src: url("./assets/EduFonts/Fonts/GothamBook.ttf");
+    src: url("./assets/EduFonts/Fonts/Gotham-Thin.otf");
 }
 @font-face {
-    font-family: "delaGothic";
-    src: url("./assets/EduFonts/Fonts/DelaGothic-Bold.ttf");
+    font-family: "gotham-bold";
+    src: url("./assets/EduFonts/Fonts/Gotham-Black.otf");
 }
+
+@font-face {
+    font-family: "delaGothic";
+    src: url("./assets/EduFonts/Fonts/GothamBold.ttf");
+}
+
+.gothic-a1-regular {
+    font-family: "Gothic A1", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
 
 body {
     font-family: "gotham";

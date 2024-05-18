@@ -8,12 +8,14 @@ import Numbers from '../components/Numbers/Numbers';
 import con3 from '../../main/assets/con3.svg'
 import con2 from '../../main/assets/con2.svg'
 import con1 from '../../main/assets/con1.svg'
+import homepic from '../assets/landing.png'
 
 
 const Main = () => {
 
 ////////////////////////////landing/////////////////////////
 const landingdata={
+  homepic:homepic,
   title:'From Syrians To Syrians',
   desc:'We envision a generation of Syrian youth empowered to overcome challenges and become key contributors in shaping a brighter future for Syria and the world.',
   button:'Get to know us',
@@ -37,8 +39,8 @@ const landingdata={
       programname:'edulens'
   },
     {   color:'pink',
-        name:"EduConsulting",
-        about:'Learn more about our EduConsulting Program',
+        name:"EduCounseling",
+        about:'Learn more about our EduCounseling Program',
         programname:'/educounseling'
     },
 

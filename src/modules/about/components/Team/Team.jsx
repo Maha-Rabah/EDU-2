@@ -3,8 +3,8 @@ import './TeamStyle.css'
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
+import { NavLink } from 'react-router-dom';
 
-// import { FaArrowRightLong } from "react-icons/fa6";
 
 
 const Team = () => {
@@ -75,10 +75,11 @@ const Team = () => {
             })}
             </Slider>
             </div>
-          {/* <a href=""><FaArrowRightLong className="right arrow"/></a> */}
-            <a href='' className="button">Join US</a>
+        <div className="but">
             
+        <NavLink to='/joinus' className="button">Join US</NavLink>
         </div>
+      </div>
   )
 }
 

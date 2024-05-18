@@ -11,13 +11,16 @@
 
 .programcards .container h3{
     padding: 40px 40px 0;
-    font-size: 24px;
+    font-size: 22px;
+    font-family: "gotham-bold";
 }
 
 .programcards .container p{
     margin: 10px 40px;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 1.8;
+    font-weight: bold;
+
 }
 
 .programcards .container .learnmore{
@@ -25,16 +28,27 @@
     display: flex;
     align-items: center;
     justify-content: flex-end;
+    margin-right: 20px;
+    font-family: "gotham-bold";
+
 }
 .programcards .container .learnmore i{
-    font-size: 33px;
+    position: absolute;
+    font-size: 28px;
     margin-left: 5px;
     color: black;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+
 }
-.programcards .container .learnmore{
-    font-size: 20px;
+.programcards .container .learnmore span{
+    font-size: 18px;
     font-weight: bold;
     color: black;
+    position: relative;
 }
 
 .programcards .container .green h3{

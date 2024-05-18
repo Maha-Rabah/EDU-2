@@ -8,11 +8,7 @@
     font-family:'arial';
 }
 .jointitle{
-    max-width: 800px;
-    font-size: 30px;
-    font-weight: bold;
-    text-align: center;
-    padding-bottom: 100px;
+    max-width: 600px;
 
 }
 
@@ -29,7 +25,7 @@
 }
 
 .joinUs-op-container img{
-    width: 100px;
+    width: 80px;
     margin-bottom: 20px;
 }
 .joinUs-op-content {
@@ -46,8 +42,8 @@
 }
 
 .joinUs-op-content p {
-    font-size:18px;
-    max-width: 570px;
+    font-size:19px;
+    max-width: 580px;
     margin-bottom: 50px;
 
 }
@@ -67,7 +63,15 @@
     ;
 }
 
-
+.yellowjoin{
+    position: absolute;
+    left: -30px;
+}
+.bluejoin{
+    position: absolute;
+    right: 0;
+    bottom:-1500px
+}
 .cta-linkedin {
     background-color:#7659FF;
     border-radius:12px;
@@ -86,6 +90,7 @@
 
 .cta-linkedin a img {
     width:25px;
+    margin-top: 12px;
 }
 
 .cta-linkedin:hover {
@@ -101,7 +106,7 @@
 }
 
 .people-container img {
-    width:100%;
+    width:800px;
 }
 
 .volunteer-link {
@@ -119,11 +124,6 @@
     flex-direction:column;
     justify-content:center;
     align-items:center;
-}
-
-.volunteer-container h2 {
-    font-size:1.9rem;
-    font-weight:900;
 }
 
 

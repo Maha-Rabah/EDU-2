@@ -3,26 +3,19 @@ import './footerStyle.css'
 import { FaFacebookF, FaInstagram, FaLinkedinIn,FaYoutube ,
 } from 'react-icons/fa';
 import { BsTelegram } from "react-icons/bs";
-import { Link } from 'react-router-dom';
+import { Link ,NavLink } from 'react-router-dom';
 import logo from '../../assets/logo.svg'
 
 /////////////////////////////////////////////////////////////
-const email = 'info@edu-bridge.org.uk'
-const socialData = [
-  "",
-  "",
-  "",
-  "",
-]
+
 /////////////////////////////////////////////////////////////
 const Footer = () => {
   return (
     <div className='footer'>
       <div className="container">
-
         <div className="box">
             <img src={logo} alt="" />
-            <a href={email}>{email}</a>
+            <a href="mailto:info@edu-bridge.org.uk">info@edu-bridge.org.uk</a>
 
             <ul className='social'> 
               <Link to={"https://www.facebook.com/share/7BUHBUWxU951ac6Y/?mibextid=qi2Omg"}><FaFacebookF/></Link>
@@ -32,20 +25,21 @@ const Footer = () => {
               <Link to={"https://t.me/EduLens_Podcast"}><BsTelegram /></Link>
             </ul>
         </div>
-
+        
         <ul className='column'>
-          <li><a href="">Home</a></li>
-          <li><a href="">About</a></li>
+        <li><NavLink to="/">Home</NavLink></li>
+          <li><NavLink to="about">About</NavLink></li>
           <li>
-            <a href="">Programs</a>
+            <NavLink to="edumentoring">Programs</NavLink>
             <ul className='drop'>
-              <li>EduMentoring</li>
-              <li>EduLens</li>
-              <li>EduCounselling</li>
+              <li><NavLink to="edumentoring">EduMentoring</NavLink></li>
+              <li><NavLink to="edulens">EduLens</NavLink></li>
+              <li><NavLink to="educounseling">EduCounseling</NavLink></li>
             </ul>
           </li>
-          <li><a href="">Join US</a></li>
-          <li><a href="">Contuct Us</a></li>
+          <li><NavLink to="joinus">Join Us</NavLink></li>
+          <li><NavLink to="contuct">Contuct Us</NavLink></li>
+
         </ul>
       </div>
     </div>
