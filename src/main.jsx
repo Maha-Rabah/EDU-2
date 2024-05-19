@@ -3,7 +3,12 @@ import ReactDOM from 'react-dom/client'
 import { createBrowserRouter,RouterProvider} from "react-router-dom";
 import {routes} from "./router/AllRouter.jsx"
 import './index.css'
-const router = createBrowserRouter(routes);
+
+const router = createBrowserRouter(routes,
+  {
+    basename: '/EDU-2',
+  });
+
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
