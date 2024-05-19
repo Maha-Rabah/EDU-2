@@ -2,7 +2,7 @@ import React from 'react'
 import './Features.css'
 import { Link } from 'react-router-dom'
 
-const Features = ({featurecard,featuretit}) => {
+const Features = ({featurecard,featuretit},) => {
     return (
       <div className='features'>
           <h2 className={(featuretit)?'feattitle featblue':'feattitle featyellow'}>Features</h2>

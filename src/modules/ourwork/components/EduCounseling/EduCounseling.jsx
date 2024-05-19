@@ -4,11 +4,12 @@ import Landing from '../../../main/components/landing/Landing'
 import { useState } from 'react'
 import Numbers from '../../../main/components/Numbers/Numbers'
 import Features from '../Features/Features'
-import feat1 from '../../assets/yellfeat1.svg'
-import feat2 from '../../assets/yfeat2.svg'
-import feat3 from '../../assets/yfeat3.svg'
+import feat3 from '../../assets/yellfat1.png'
+import feat2 from '../../assets/yfeat2.png'
+import feat1 from '../../assets/yfeat3.png'
 import yellow from '../../../../assets/yellow.svg'
 import counpic from '../../assets/educounpic.png'
+
 const EduCounseling = () => {
 
 
