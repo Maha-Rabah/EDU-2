@@ -80,7 +80,7 @@ function submit(e){
             <textarea type='text'  id="message" name="text"   value={data.message} onChange={(e)=>
             handle(e)} placeholder='Message (required)' required />
 
-            <button className='button'>submit</button> 
+            <button className='button'>Send</button> 
         </form>
     <img src={roze} alt="" className='rozecon'/>
       
