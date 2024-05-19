@@ -1,6 +1,6 @@
 import './contuct.css'
 import worldmap from '../assets/worldmapfinal.png'
-import { useState,useEffect } from 'react'
+import { useState,useEffect} from 'react'
 import line from '../assets/lines.svg'
 import sy from '../assets/syria.svg'
 import yellow from '../../../assets/yellow.svg'
@@ -11,14 +11,16 @@ import axiosInstance from '../../../utlis/axios'
 
 const Contuct= () => {
   useEffect(() => { window.scrollTo(0, 0) }, [])
+
   const[data,setData]=useState({
     firstName:"",
     lastName:"",
     email:"",
     message:"",
   });
+
   const url='https://api.edu-bridge.org.uk/contact-us';
- 
+
 function handle(e){
   const newdata={...data};
   newdata[e.target.id]=e.target.value;
@@ -33,23 +35,13 @@ function submit(e){
     email:data.email,
     message:data.message,
   })
-  .then(res=>{
-    console.log(res.data)
-  })
+  setData({    
+  firstName:"",
+  lastName:"",
+  email:"",
+  message:"",})
 }
-// const handleFormSubmit = (e) =>{
-//     e.preventDefault();
-//     Axios.post(url,dataToSubmit)
-//       // method:'POST',
-//       // headers:{
-//       //    'accept':'*/*' ,
-//       //    'Content-Type':'application/json' 
-//       // },
-//       // body:JSON.stringify(dataToSubmit)
-//     .then(res =>{
-//         console.log(res)
-//     })
-// }
+
   return (
     <div className="contactUs-container">
     <img src={yellow} alt="" className='yellowcon'/>
@@ -80,7 +72,7 @@ function submit(e){
             <textarea type='text'  id="message" name="text"   value={data.message} onChange={(e)=>
             handle(e)} placeholder='Message (required)' required />
 
-            <button className='button'>Send</button> 
+            <button className='button' type='submit'>Send</button> 
         </form>
     <img src={roze} alt="" className='rozecon'/>
       

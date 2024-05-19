@@ -13,7 +13,7 @@
 
 
 .features .container .featurecard {
-    padding: 30px;
+    padding: 25px 30px;
     background-color: rgb(121 191 251 / 15%);
     box-shadow: 0px 6px 16px 0px #00000040;
     text-align: left;
@@ -22,29 +22,33 @@
     background-color:#FFC5491A;
     ;
 }
-.featurecard.pink .featuretit{
-    color: #FFC549;
 
-}
 .featurecard .icon img{
-    margin-bottom: 12px;
+    height: 48px;
+}
+
+.featurecard .caption{
 }
 .featurecard .caption p{
     font-size: 20px;
     font-weight: bold;
-    line-height: 1.8;
+    line-height: 1.5;
     color: black;
-    height: 87px;
     width: 100%;
-    margin-bottom: 20px;
 }
 
 .featurecard .featuretit{
     color: #4D9CE0;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: bold;
-    margin-bottom: 12px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
+.featurecard.pink .featuretit{
+    color: #FFC549;
+
+}
+
 .features .feattitle{
     font-size: 38px;
     font-weight: bold;
