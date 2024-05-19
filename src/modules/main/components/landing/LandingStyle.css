@@ -2,6 +2,7 @@
     max-width: 100vw;
     height: 558px;
     position: relative;
+    margin-bottom: var(--main-padding);
 }
 .landing img{
     width: 100%;

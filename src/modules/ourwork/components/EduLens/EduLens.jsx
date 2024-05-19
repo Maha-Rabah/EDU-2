@@ -23,7 +23,6 @@ const numoption = ["+ 11 Episodes", "+ 11 Hours of Content"];
     <>
         <Landing data={lensdata}/>
         <Educard/>
-        <img src={yellow} alt="" className='proyellow' />
         <Numbers  title={lensnumtitle} numoptions={numoption}/>
 
       

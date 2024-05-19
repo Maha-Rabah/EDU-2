@@ -11,7 +11,6 @@ const Cohort = () => {
                 <img src={cohort} alt="" />
             </div>
         </div>
-        <img src={blue} alt="" className='bluecor' />
     </div>
   )
 }

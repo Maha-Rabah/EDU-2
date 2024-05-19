@@ -7,7 +7,7 @@
     --third-color:#FF77B4;
     --sec-color:#79BFFB;
     --font-color:#FFFFFF;
-    --main-padding: 100px;
+    --main-padding: 50px;
 }
 
 *{
@@ -40,14 +40,15 @@ ul {
     font-size: 44px;
     color: #000000;
     text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 
 .button {
     background-color:var(--main-color);
     color:white;
     width: fit-content;
-    font-size: 22px;
+    font-size: 18px;
+    font-weight: bold;
     padding: 15px 30px;
     border: none;
     cursor: pointer;

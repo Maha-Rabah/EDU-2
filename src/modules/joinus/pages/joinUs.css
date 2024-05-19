@@ -5,7 +5,6 @@
     flex-direction:column;
     align-items:center;
     justify-content:center;
-    font-family:'arial';
 }
 .jointitle h1{
     font-size: 44px;
@@ -137,27 +136,11 @@
 
 .volunteer-container {
     margin-top: 100px;
-    display:flex;
-    flex-direction:column;
-    justify-content:center;
-    align-items:center;
+    padding-bottom: 0 !important;
 }
 
 
-.volunteer-cards {
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-}
 
-.volunteer-card {
-    width:100px;
-    height:100px;
-    background-color:gray;
-    display:flex;
-    flex-direction:column;
-    align-items:center;
-    margin:0 2em;
-}
+
 
 

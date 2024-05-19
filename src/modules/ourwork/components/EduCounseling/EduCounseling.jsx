@@ -7,7 +7,6 @@ import Features from '../Features/Features'
 import feat3 from '../../assets/yellfat1.png'
 import feat2 from '../../assets/yfeat2.png'
 import feat1 from '../../assets/yfeat3.png'
-import yellow from '../../../../assets/yellow.svg'
 import counpic from '../../assets/educounpic.png'
 
 const EduCounseling = () => {
@@ -58,7 +57,6 @@ const EduCounseling = () => {
     <>
         <Landing data={coundata}/>
          <Features featurecard={featuredata} featuretit={false}/>
-         <img src={yellow} alt="" className='proyellow' />
         <Numbers  title={contitle} numoptions={numoption}/>
     </>
   )

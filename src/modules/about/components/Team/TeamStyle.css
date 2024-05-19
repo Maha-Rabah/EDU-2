@@ -1,4 +1,5 @@
 .Team {
+    padding-top: var(--main-padding);
     padding-bottom: var(--main-padding);
 }
 
@@ -19,18 +20,19 @@
     background-color: white;
     box-shadow: 0 2px 15px rgb(0 0 0 / 10%);
     width: 325px !important;
-    margin: auto;
     border-radius: 5px;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
+    margin-bottom: 20px;
+    height: 315px;
 }
 .teamcard .picture {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 
 .teamcard .picture img{

@@ -28,3 +28,7 @@
     color: var(--main-color);
     font-weight: bold;
 }
+.lenyelllow{
+    position: absolute;
+    left: -20px;
+}

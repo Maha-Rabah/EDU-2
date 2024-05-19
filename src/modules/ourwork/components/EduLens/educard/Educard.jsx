@@ -1,6 +1,7 @@
 import React, { useEffect, useState }from 'react'
 import './Educard.css'
 import lens from '../../../assets/lens.png'
+import yellow from '../../../../../assets/yellow.svg'
 const Educard = () => {
 
   const [edudata, setEdudata] = useState([]);
@@ -19,6 +20,7 @@ const Educard = () => {
   return (
     <div className='educards'>
         <div className="container">
+        <img src={yellow} alt="" className='lenyelllow' />
         {edudata.length && edudata?.map(function (item) {
                 return (
                   <>

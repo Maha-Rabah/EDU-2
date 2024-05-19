@@ -3,6 +3,7 @@
     padding-bottom: var(--main-padding);
     position: relative;
     background-color: white;
+    margin-bottom: 50px
 }
 
 .vision .container {

@@ -1,5 +1,4 @@
 .cohort{
-    padding-top: var(--main-padding);
     padding-bottom: var(--main-padding);
     position: relative;
 }
