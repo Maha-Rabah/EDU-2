@@ -2,7 +2,7 @@
     padding-top: var(--main-padding);
     padding-bottom: var(--main-padding);
     position: relative;
-    background: url("../../assets/worldMap.png")  var(--section-color);
+    background:var(--section-color);
     display:flex;
     flex-direction:column;
     justify-content:center;
